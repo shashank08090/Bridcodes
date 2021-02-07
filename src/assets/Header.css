@@ -1,0 +1,34 @@
+
+#mobileviewNav{
+    display:none;
+}
+
+/*---------- making our navbar responsive ------------------ */
+
+@media only screen and (max-width: 600px) {
+    
+    #ulNavbar{
+        visibility: hidden;
+        
+    }
+    #mobileviewNav{
+        display:inline;
+        float: right;
+    
+        background-color: #FFF4D4;
+    }
+    #mobList{
+        font-family: 'Roboto',sans-serif;
+        font-size: 20px;
+        background-color: #FFF4D4;
+    }
+
+    /*
+    #hamLine {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+      }
+        */
+  }

@@ -1,0 +1,46 @@
+#pg6heading{
+
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
+#Page6{
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+#cards{
+    display: grid;
+    margin-left: 3%;
+    grid-template-rows: 25%;
+    grid-template-columns: 20% 20% 20%;
+    height: 300px;
+    
+    justify-content:space-around;
+
+}
+#firstcard , #seccard , #thirdcard{
+    box-shadow: 10px 10px 10px 10px #888888 ;
+    font-family: 'Roboto',sans-serif;
+    
+    font-size: 2vw;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+}
+
+@media only screen and (max-width:600px){
+    #Page6{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 10vh;
+    
+}
+}

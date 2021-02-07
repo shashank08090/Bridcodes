@@ -1,0 +1,45 @@
+#FooterPage{
+    background: linear-gradient(to right bottom , grey , white);
+    height: 45vh;
+    width: 100%;
+}
+
+#logo{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#fotertext1{
+    height: 90%;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+#footerp{
+    font-family: 'Roboto',sans-serif;
+    margin-top:2%;
+    font-weight: 1000;
+    margin-left: 10px;
+}
+
+#liFooter1 , #liFooter2 , #liFooter3{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+
+}
+#copyrights{
+    
+    opacity: 0.8;
+    margin: -1% 1%;
+    color: grey;
+    
+}
+
+#lastxt{
+    float: right;
+    margin-right: 10%;
+
+}

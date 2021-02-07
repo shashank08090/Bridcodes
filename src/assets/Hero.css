@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    border:10px solid white;
+}
+.Header
+{
+    position: absolute;
+width: 100%;
+height: 4%;
+top: 1%;
+background-color: #FFF4D4;
+}
+  #image{
+    display:inline;
+    margin-left: 2%;  
+}
+#ulNavbar{
+    left: 1%;
+    display:inline-flex;
+    list-style-type: none;
+    float:right;
+    background-color:#FFF4D4; 
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10%;
+}
+ 
+#liNavbar{
+    margin-right:4%;
+    padding:1px;
+
+}
+
+#hero{
+    position: absolute;
+width: 30%;
+height: 70vh;
+right:0;
+top:20%;
+margin-right:5%;
+
+}
+
+#heroline{
+    position: absolute;
+width: 40%;
+height: 30%;
+left: 15%;
+top: 40%;
+font-family: 'Roboto',sans-serif;
+font-weight:1000;
+}
+#review{
+    
+position: absolute;
+width: 35%;
+height: 15%;
+left: 15%;
+top: 70%;
+font-family: 'Roboto',sans-serif;
+font-weight: 1000;
+
+
+}
+
+#rsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#ssection{
+    margin-top:2.5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+h3{
+    margin-left: 1%;
+}
+
+
+#mobileviewNav{ 
+    display:none;
+}
+
+/*---------- making our navbar responsive ------------------ */
+
+@media only screen and (max-width: 600px) {
+
+    
+    #ulNavbar{
+        visibility: hidden;
+        
+    }
+    #mobileviewNav{
+        display:inline;
+        float: right;
+    
+        background-color: #FFF4D4;
+    }
+    #mobList{
+        font-family: 'Roboto',sans-serif;
+        font-size: 20px;
+        background-color: #FFF4D4;
+    }
+
+   /* navbar ended here, now designing images and texts of the same page */
+
+   
+   #hero{
+    position: absolute;
+    width: 70%;
+    right: 5%;
+    left: 5%;
+    height: 30vh;
+    margin: auto;
+    top:10%;
+    
+   }
+  
+       #heroline{
+           
+           margin-left: 10%;
+           margin-top:20px;
+           width: fit-content;
+       } 
+
+       #review , #ssection{
+           
+           margin-left: 10%;
+       }
+       #ssection{
+           margin-left: 20px;
+       }
+  }

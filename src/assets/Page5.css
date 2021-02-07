@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+#Page5{
+    height: 100vh;
+    width: 100%;
+
+    
+}
+#page5{
+    margin-top:20px;
+}
+
+#topPg51{
+
+    margin-left: 10%;  
+}
+#topPg52{
+    
+    margin-left: 10%;
+}
+#text52{
+    margin-left: 10%;
+    margin-top: 1%;
+    font-weight: 1000;
+}
+/*making 2nd half of the cards in grid layout */
+#page522{
+    margin:7%;
+    display:grid;
+    grid-template-rows: 49% 49%;
+    grid-template-columns: 49%  49%;
+    height: 300px;
+    
+}
+
+
+/*Designing cards of grid layout */
+/*Making grid inside each of these grid boxes */
+#exclaim1{
+display: grid;
+grid-template-rows: 100%;
+grid-template-columns: 20% 70% ;
+}
+#exclamation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#internaltext11{
+    margin-top:20px;
+}
+
+/*----second card----*/
+
+#exclaim1{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 70% ;
+    }
+    #exclamation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #internaltext11{
+        margin-top:20px;
+    }
+
+    /*----second card----*/
+
+    #clock1{
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 20% 70% ;
+        }
+        #clocksign1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #internaltext12{
+            margin-top:20px;
+        }
+
+        /*------third card----*/
+
+        #clock2{
+            display: grid;
+            grid-template-rows: 100%;
+            grid-template-columns: 20% 70% ;
+            }
+            #clocksign2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            #internaltext21{
+                margin-top:20px;
+            }
+
+            /*--fourth card ---*/
+
+            #lastcard{
+                display: grid;
+                grid-template-rows: 100%;
+                grid-template-columns: 20% 70% ;
+                }
+                #exclamation2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                #internaltext22{
+                    margin-top:20px;
+                }
+
+/* making this page mobile responsive */
+
+@media only screen and (max-width:600px){
+    #page522{
+        margin:7%;
+        display:grid;
+        grid-template-rows: 24% 24% 24% 24%;
+        grid-template-columns: 100%;
+        height:fit-content;
+        
+    }
+    #Page5{
+        height: 150vh;
+        width: 100%;
+        border:10px solid white;
+        
+    }
+    
+}
